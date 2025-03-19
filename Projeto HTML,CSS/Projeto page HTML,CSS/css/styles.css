@@ -1,46 +1,56 @@
-html{
+html {
     font-family: helvetica;
     background-color: #006437;
 }
-.container{
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 1100px;
     background-color: #fff;
     position: relative;
     margin: 50px auto;
     padding: 20px 50px;
 }
-.bold{
+
+.bold {
     font-weight: bold;  
 }
 
-.header{
+#header {
     color: #fff;
     background-color: #006437;
     text-align: center;
-    width: 600px;
+    width: 80%;
+    max-width: 600px;
     height: 100px;
-    margin-left: 250px;
+    margin: 0 auto;
     border-radius: 50px;
 }
 
-#main-title{
+#main-title {
     font-size: 40px;
 }
-.main-paragraph{
+
+.main-paragraph {
     font-style: italic;
 }
-.featured-image{
+
+.featured-image {
     text-align: center;
     margin: 30px;
 }
-.academia{
+
+.academia {
     color: #006437;
     padding: 25px 0;
     margin: 30px 0;
     border-top: 1px dashed #fff;
     border-bottom: 1px dashed #fff;
 }
-.more-about{
+
+.more-about {
     font-weight: bold;
     margin: 10px;
     padding: 25px;
@@ -50,11 +60,37 @@ html{
     height: 155px;
     border-radius: 10px;
     border: 1px dashed #fff;
-    
-
 }
-.image-bold{
+
+.image-bold {
     font-weight: bold;
     text-align: center;
 }
 
+button {
+    display: inline-block;
+    background-color: #006437;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #028a4c;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.anchor {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
